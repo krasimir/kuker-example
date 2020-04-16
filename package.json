@@ -5,7 +5,9 @@
   "main": "src/main.js",
   "scripts": {
     "start": "webpack-dev-server",
-    "test": "cross-env NODE_ENV=test babel-node test/sagas.js | tap-spec"
+    "test": "cross-env NODE_ENV=test babel-node test/sagas.js | tap-spec",
+    "release": "webpack",
+    "build": ""
   },
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
